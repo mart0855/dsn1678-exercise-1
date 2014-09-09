@@ -30,23 +30,28 @@ img {
   width: 100%;
 }
 
-.fig1 {
+figure {
 	width: 100%;
 	display: block;
-	position: absolute;
+	position: relative;
+	overflow: hidden;
 }
 
-.caption {
+figcaption {
 	background-colour: rgba(94,94,94,.5);
+	width: 100%;
 	font-style: italic;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 1.5rem;
+	color: #fff;
+	font-family: "Times New Roman", serif;
 	colour: #fff;
-	position: relative;
+	position: absolute;
 	padding: 1.5rem;
+	bottom: 0rem;
 }
 
 .heading {
-	margin-left: 1.5rem;
+	margin-left: 2rem;
 	positon: relative;
 }
 
@@ -58,6 +63,18 @@ ul {
 	
 li {
 	display: inline-block;
-	margin-right: 1.5rem;
+	margin-right: 2rem;
 	border-right: solid 1px #BFBBBB;	
+	padding-right: 10rem;
+}
+
+h2 {
+	text-transform: uppercase;
+	color: #ABAAAA;
+	font-size: 1rem;
+}
+
+p {
+	font-size: 1.5rem;
+	
 }
