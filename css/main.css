@@ -33,6 +33,7 @@ img {
 .fig1 {
 	width: 100%;
 	display: block;
+	position: absolute;
 }
 
 .caption {
@@ -40,9 +41,23 @@ img {
 	font-style: italic;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	colour: #fff;
+	position: relative;
+	padding: 1.5rem;
 }
 
 .heading {
-	margin: auto;
+	margin-left: 1.5rem;
+	positon: relative;
+}
+
+ul {
+	position: relative;
+	display: block;
+	
 }
 	
+li {
+	display: inline-block;
+	margin-right: 1.5rem;
+	border-right: solid 1px #BFBBBB;	
+}
