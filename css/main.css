@@ -38,20 +38,20 @@ figure {
 }
 
 figcaption {
-	background-colour: rgba(94,94,94,.5);
+	background-color: rgba(0,0,0,.5);
 	width: 100%;
 	font-style: italic;
 	font-size: 1.5rem;
 	color: #fff;
 	font-family: "Times New Roman", serif;
-	colour: #fff;
 	position: absolute;
 	padding: 1.5rem;
 	bottom: 0rem;
+	padding: 1.5rem;
 }
 
 .heading {
-	margin-left: 2rem;
+	margin-left: 2.2rem;
 	positon: relative;
 }
 
@@ -59,6 +59,10 @@ ul {
 	position: relative;
 	display: block;
 	
+}
+
+li:last-child{
+	border-right: none;
 }
 	
 li {
