@@ -60,16 +60,16 @@ ul {
 	display: block;
 	
 }
-
-li:last-child{
-	border-right: none;
-}
 	
 li {
 	display: inline-block;
 	margin-right: 2rem;
 	border-right: solid 1px #BFBBBB;	
 	padding-right: 10rem;
+}
+
+li:last-child{
+	border-right: none;
 }
 
 h2 {
@@ -80,5 +80,4 @@ h2 {
 
 p {
 	font-size: 1.5rem;
-	
 }
