@@ -8,7 +8,6 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
   font: normal 100%/1.5 sans-serif;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -23,9 +22,27 @@ html {
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 img {
   display: block;
   width: 100%;
 }
+
+.fig1 {
+	width: 100%;
+	display: block;
+}
+
+.caption {
+	background-colour: rgba(94,94,94,.5);
+	font-style: italic;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	colour: #fff;
+}
+
+.heading {
+	margin: auto;
+}
+	
